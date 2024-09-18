@@ -1,10 +1,16 @@
 {
   "hosting": {
-    "public": "build",  
+    "public": "build",  // Ensure the "public" directory points to the "build" folder after running npm build
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",  // Match all routes
+        "destination": "/index.html"  // Redirect them to index.html for React Router to take over
+      }
     ]
   }
 }
