@@ -1,7 +1,10 @@
 import React from "react";
 
 const Resume = () => {
-	
+	// useEffect(() => {
+	// 	window.location = "/resume.pdf";
+	// }, []);
+
 	return (
 		<div className="resume-page">
 			<object
