@@ -1,0 +1,50 @@
+.MuiCardMedia-root {
+	background-size: contain !important;
+}
+
+.projects-list {
+	background-color: rgb(194, 194, 194) !important;
+	border-radius: 5px;
+	padding: 5% !important;
+	margin-bottom: 5% !important;
+}
+
+.project-grid-list {
+	flex-grow: 1 !important;
+	justify-content: center !important;
+}
+
+.do-font {
+	font-family: 'Do Hyeon', sans-serif !important;
+}
+
+.project-title .MuiTypography-h5 {
+	font-family: 'Do Hyeon', sans-serif !important;
+	letter-spacing: 2px;
+}
+
+.action-bar {
+	justify-content: space-between !important;
+	padding-right: 5% !important;
+	padding-left: 5% !important;
+}
+
+.project-link-btn {
+	/* border-radius: 0 !important; */
+	box-shadow: none !important;
+	color: white !important;
+	background-color: orange !important;
+	font-family: 'Do Hyeon', sans-serif !important;
+	letter-spacing: 1.5px !important;
+	z-index: 0;
+
+}
+
+.project-link-btn:disabled {
+	background-color: rgb(145, 144, 144) !important;
+	color: rgb(228, 228, 228) !important;
+}
+
+.git-icon:hover {
+	transform: scale(1.2);
+}
