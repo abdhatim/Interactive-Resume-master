@@ -3,7 +3,7 @@ let projects = [
 		id: 1,
 		name: "Lieferplatz",
 		description:
-			"Lieferplatz is a web-based food delivery platform designed for both customers and restaurants to streamline the process of ordering food online. Developed using Java with Spring Boot, it provides an intuitive interface for managing orders.'21 was India's largest student run hackathon. I worked on its online portal, which was used for everything from the registration, updates to the final submission.",
+			"Lieferplatz is a web-based food delivery platform designed for both customers and restaurants to streamline the process of ordering food online. Developed using Java with Spring Boot, it provides an intuitive interface for managing orders.",
 		src: "LieferplatzLoginPage.png",
 		tech: "HTML, CSS, ThymeLeaf, SQlite, Springboot",
 		/*link: "https://hackwith.codechefvit.com/",*/
