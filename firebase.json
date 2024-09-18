@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "build",  // Change this to the directory containing your built files
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
