@@ -2,19 +2,19 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Main from "./pages/Main/Main";
-
+import Resume from "./pages/Resume/Resume";
 
 function App() {
-  return (
-    <div className="App">
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Main />} />
-          {/* Add other routes for your app's components */}
-        </Routes>
-      </BrowserRouter>
-    </div>
-  );
+	return (
+		<div className="App">
+			<BrowserRouter>
+				<Routes>
+					<Route path="/" element={<Main />} />
+					<Route path="/resume.pdf" element={<Resume />} />
+				</Routes>
+			</BrowserRouter>
+		</div>
+	);
 }
 
 export default App;
